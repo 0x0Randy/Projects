@@ -10,7 +10,7 @@ local RootPart = Character:WaitForChild("HumanoidRootPart")
 
 local function sendNotification(message)
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Frank Billington Anti-Lock",
+        Title = "Sky Anti - Randy#0002",
         Text = message,
         Icon = "rbxassetid://7215458251",
         Duration = 2,
