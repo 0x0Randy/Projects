@@ -18,7 +18,7 @@ local function sendNotification(message)
 end
 
 UIS.InputBegan:Connect(function(input)
-    if input.KeyCode == Enum.KeyCode[Settings.KeyBind] and not UIS:GetFocusedTextBox() then
+    if input.KeyCode == Enum.KeyCode[getgenv().Settings.KeyBind] and not UIS:GetFocusedTextBox() then
         VelocityChanger = not VelocityChanger
         if VelocityChanger then
             sendNotification("Anti-Lock Enabled")
