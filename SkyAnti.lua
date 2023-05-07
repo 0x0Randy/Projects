@@ -1,6 +1,10 @@
            --// Randy#0002 \\--
 --// Don't Steal If You Plan On Skidding \\--
 
+--[[getgenv().Settings = {
+    KeyBind = "X",
+  }]]--
+
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UIS = game:GetService("UserInputService")
