@@ -8,7 +8,7 @@
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UIS = game:GetService("UserInputService")
-local Velocity = Vector3.new(200, 700, 200)
+local Velocity = Vector3.new(-1000, -2000, -3000 )
 
 local VelocityChanger = false
 local LocalPlayer = Players.LocalPlayer
