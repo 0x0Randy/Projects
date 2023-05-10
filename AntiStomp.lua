@@ -1,9 +1,6 @@
           --// Randy#0002 \\--
 --// Don't Steal If You Plan On Skidding \\--
 
-          --// Randy#0002 \\--
---// Don't Steal If You Plan On Skidding \\--
-
 --[[local Settings = {
     AntiStomp = false,
     AntiKeybind = "X"
