@@ -1,3 +1,14 @@
+          --// Randy#0002 \\--
+--// Don't Steal If You Plan On Skidding \\--
+
+          --// Randy#0002 \\--
+--// Don't Steal If You Plan On Skidding \\--
+
+--[[local Settings = {
+    AntiStomp = false,
+    AntiKeybind = "X"
+}]]--
+
 local Connection = nil
 local RespawnPos = nil
 
@@ -14,7 +25,7 @@ local function KOChecker()
     end
 
     Connection = KO.Changed:Connect(function(Value)
-        if Value == true and Settings_V1.AntiStomp then
+        if Value == true and Settings.AntiStomp then
             RespawnPos = game.Players.LocalPlayer.Character:GetPrimaryPartCFrame()
             game.Players.LocalPlayer.Character:Destroy()
         end
@@ -44,9 +55,9 @@ end
 
 UserInputService.InputBegan:Connect(function(input, Typing)
     if Typing then return end
-    if input.KeyCode == Enum.KeyCode[Settings_V1.Anti_Keybind:upper()] then
+    if input.KeyCode == Enum.KeyCode[Settings.AntiKeybind:upper()] then
         Toggle = not Toggle
-        Settings_V1.AntiStomp = Toggle
+        Settings.AntiStomp = Toggle
         Notification(Toggle and "Enabled" or "Disabled")
     end
 end)
