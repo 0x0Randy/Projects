@@ -1,5 +1,4 @@
-          --// Randy#0002 \\--
---// Don't Steal If You Plan On Skidding \\--
+
 
 local GlassPane = game.Workspace["Glass Bridge"].GlassPane
 
