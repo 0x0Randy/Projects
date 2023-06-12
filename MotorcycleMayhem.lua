@@ -1,6 +1,7 @@
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.Name = "BikespawnerGUI"
+ScreenGui.ResetOnSpawn = false
 
 local Frame = Instance.new("Frame")
 Frame.Position = UDim2.new(0.5, -100, 0.5, -75)
