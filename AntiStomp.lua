@@ -1,10 +1,4 @@
-          --// Randy#0002 \\--
---// Don't Steal If You Plan On Skidding \\--
 
---[[local Settings = {
-    AntiStomp = false,
-    AntiKeybind = "X"
-}]]--
 
 local Connection = nil
 local RespawnPos = nil
