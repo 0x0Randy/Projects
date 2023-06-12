@@ -55,7 +55,7 @@ local Bikes = {
     "Harlon David Glide",
     "Yamura MT10",
     "Samurai ZX10R",
-    "Donda CBR10000RR Fireblade",
+    "Donda CBR1000RR Fireblade",
     "Beamer S1000RR",
     "MV Agustus",
     "Dugatti PR",
